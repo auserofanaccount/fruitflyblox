@@ -50,7 +50,7 @@ Get-ChildItem -Filter *.csv.gz | ForEach-Object {
 # Why I made the repository in the first place
 
 TL;DR: To prove some idiots.
-I used this in ROBLOX, as it was just a tiny small project. 'Till people had started to throw the fly's player off. I had to obviously, come in assistance. THEN it kept happening. I had to help the fly more, and tell people not to throw it off. Then now I think I want attention, and I am actually controlling it. 
+I used this in ROBLOX, as it was just a tiny small project. 'Till people had started to throw the fly's player off. I had to obviously, come in assistance. THEN it kept happening. I had to help the fly more, and tell people not to throw it off. Then now, THEY think I want attention, and I am actually controlling it. What truly is controlling it, is THIS script. 
 
 - Logs
 ```
