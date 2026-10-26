@@ -10,7 +10,16 @@ This was made to prove some idiots that it actually DOES control ROBLOX itself.
 
 - Get the required CSV files.
 
-```wget https://storage.googleapis.com/flywire-data/codex/data/fafb/783/connections_princeton.csv.gz -o connections_princeton.csv.gz && wget https://storage.googleapis.com/flywire-data/codex/data/fafb/783/classification.csv.gz -o classification.csv.gz```
+Linux
+
+```wget https://storage.googleapis.com/flywire-data/codex/data/fafb/783/connections_princeton.csv.gz && wget https://storage.googleapis.com/flywire-data/codex/data/fafb/783/classification.csv.gz```
+
+Powershell
+
+```
+Invoke-WebRequest -Uri "https://storage.googleapis.com/flywire-data/codex/data/fafb/783/connections_princeton.csv.gz" -OutFile "connections_princeton.csv.gz"
+Invoke-WebRequest -Uri "https://storage.googleapis.com/flywire-data/codex/data/fafb/783/classification.csv.gz" -OutFile "classification.csv.gz"
+```
 
 - Unzip the CSV files.
 
